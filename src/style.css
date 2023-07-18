@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #001b38;
+}
+
+.bodyColor {
+  background-color: #001b38;
+}
+.loginstyle {
+  justify-content: center;
+  align-items: center;
+}
+
+.linkColor {
+  color: white;
+  font-weight: bold;
+}
+
+.btn-color {
+  background-color: #2fc391; /* Green */
+  border-color: #2fc391;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.span {
+  height: 35px;
+}
+
+.profileDiv {
+  text-size-adjust: 50%;
+}
+
+.form_container {
+  width: 30%;
+  background-color: #133f70;
+}
+
+@media screen and (max-width: 1000px) {
+  .form_container {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .form_container {
+    width: 65%;
+  }
+}
